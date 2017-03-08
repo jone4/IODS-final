@@ -1,1 +1,19 @@
-# IODS-final
+---
+title: "IODS course project"
+author: johanna tuhkanen
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_depth: 2
+    fig_caption: true
+    fig_width: 6
+    fig_height: 4
+    code_folding: hide
+---
+
+***
+
+
+```{r child = "IODS_finalee.Rmd"}
+```
