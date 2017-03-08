@@ -2,11 +2,9 @@
 title: "FinalExam"
 output: html_document
 ---
-# Johanna Tuhkanen
-# 8.3.2017
-# johanna.tuhkanen@helsinki.fi
+
  
-My research question is: does life expextancy correlate with years of education? I suppose it does. 
+My research question is: does life expectancy correlate with years of education? I suppose it does. 
 
 I used data that has been wrangled allready.
 
@@ -48,6 +46,6 @@ It seems that it really does, because p-value is under 0.001. I draw a plot with
 
 Now it's really important to notice that correlation is not same as causal connection. We cant't say that there is causal connection between life expectancy and years of education. Let's think about that more. (There might be some causality, because it's possible that when people study they learn somethin important which helps to lengthen their life.) I believe there is third variable that explains the correlation. Usually in countries where are poor and primitive conditions, people dont't educate so long. Healthcare might be bad and so on...
 
-The answer to my question is: yes, life expextancy correlates with years of education.
+The answer to my question is: yes, life expectancy correlates with years of education.
 
 
