@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="johanna tuhkanen" />
+<meta name="author" content="johanna tuhkanen, 8.3.2017, johanna.tuhkanen@helsinki.fi" />
 
 
 <title>IODS course project</title>
@@ -134,28 +134,13 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">IODS course project</h1>
-<h4 class="author"><em>johanna tuhkanen</em></h4>
+<h4 class="author"><em>johanna tuhkanen, 8.3.2017, <a href="mailto:johanna.tuhkanen@helsinki.fi">johanna.tuhkanen@helsinki.fi</a></em></h4>
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#johanna-tuhkanen">Johanna Tuhkanen</a></li>
-<li><a href="#section">8.3.2017</a></li>
-<li><a href="#johanna.tuhkanenhelsinki.fi"><a href="mailto:johanna.tuhkanen@helsinki.fi">johanna.tuhkanen@helsinki.fi</a></a></li>
-</ul>
-</div>
 
 <hr />
-<div id="johanna-tuhkanen" class="section level1">
-<h1>Johanna Tuhkanen</h1>
-</div>
-<div id="section" class="section level1">
-<h1>8.3.2017</h1>
-</div>
-<div id="johanna.tuhkanenhelsinki.fi" class="section level1">
-<h1><a href="mailto:johanna.tuhkanen@helsinki.fi">johanna.tuhkanen@helsinki.fi</a></h1>
-<p>My research question is: does life expextancy correlate with years of education? I suppose it does.</p>
+<p>My research question is: does life expectancy correlate with years of education? I suppose it does.</p>
 <p>I used data that has been wrangled allready.</p>
 <pre class="r"><code>human &lt;- read.csv(&quot;http://s3.amazonaws.com/assets.datacamp.com/production/course_2218/datasets/human_development.csv&quot;, stringsAsFactors = F)
 dim(human)</code></pre>
@@ -238,8 +223,7 @@ curve(10.515 + 7.432*x, from=0, to=50, add=T, col=&quot;deeppink&quot;)</code></
 <p>I wanted to see how mean years of education explains life expectancy. I used simple linear regression analysis. Linear regression analysis concentrates on the relationships of some variables. There is one dependent variable and one or more explanatory variables. In simple linear regression analysis there is only one explanatory. The fitting is done with “least squares approach”.</p>
 <p>It seems that it really does, because p-value is under 0.001. I draw a plot with deeppink regression line. It seems that higher years of education is related to higher life expectancy.</p>
 <p>Now it’s really important to notice that correlation is not same as causal connection. We cant’t say that there is causal connection between life expectancy and years of education. Let’s think about that more. (There might be some causality, because it’s possible that when people study they learn somethin important which helps to lengthen their life.) I believe there is third variable that explains the correlation. Usually in countries where are poor and primitive conditions, people dont’t educate so long. Healthcare might be bad and so on…</p>
-<p>The answer to my question is: yes, life expextancy correlates with years of education.</p>
-</div>
+<p>The answer to my question is: yes, life expectancy correlates with years of education.</p>
 
 
 

@@ -1,10 +1,9 @@
 ---
 title: "IODS course project"
-author: johanna tuhkanen
-8.3.2017
-johanna.tuhkanen@helsinki.fi
+author: johanna tuhkanen, 8.3.2017, johanna.tuhkanen@helsinki.fi
 
 output:
+
   html_document:
     theme: cosmo
     toc: true
